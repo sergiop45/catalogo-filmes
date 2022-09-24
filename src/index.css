@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #2f3559;
+}
+
+a {
+    text-decoration: none;
+    color: #f1bbbb;
+    transition: 1s;
+}
+a:hover {
+    color: #e394a7;
+}
