@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState, useEffect } from 'react';
 import FilmeCard from '../../components/FilmeCard';
-import './home.css';
+import '../filmeGrid.css'
 
 const filmesURL = import.meta.env.VITE_API;
 const Key_api = import.meta.env.VITE_API_KEY;
