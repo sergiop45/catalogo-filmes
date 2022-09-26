@@ -6,11 +6,11 @@ import { BsGraphUp, BsWallet2,
     BsFillFileEarmarkTextFill } from 'react-icons/bs';
 import './filme.css';   
 import FilmeCard from '../../components/FilmeCard';
-
+import {FaStar} from 'react-icons/fa';
 
 const filmesURL = import.meta.env.VITE_API;
 const Key_api = import.meta.env.VITE_API_KEY;
-
+const imgURL = import.meta.env.VITE_IMAGE;
 
 function Filme() {
 
@@ -40,10 +40,17 @@ function Filme() {
     }
    
     return(
-        <div>
+        <div className='filme'>
             {filme && (
                 <>
-                <FilmeCard filme={filme} showLink={false}/>
+                <div className='card'>
+                <img src={imgURL+filme.poster_path} alt="Capa do filme" />
+                <h2>{filme.title}</h2>
+                <p>
+                     <FaStar /> {filme.vote_average}
+                </p>
+                </div>
+                
                 <p className='tagline'>{filme.tagline}</p>
                 
                 <div className='info'>
