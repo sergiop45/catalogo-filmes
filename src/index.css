@@ -17,3 +17,7 @@ a {
 a:hover {
     color: #e394a7;
 }
+
+label {
+    color:black;
+}
