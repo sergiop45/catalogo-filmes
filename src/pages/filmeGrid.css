@@ -1,6 +1,6 @@
 .container .titulo {
-    color: #fff;
-    font-size: 2.5rem;
+    color: #ebdfcc;
+    font-size: 2.2rem;
     text-align:center;
     margin: 2rem 0 1rem;
 }
@@ -15,5 +15,5 @@
 }
 
 .titulo .query-text {
-    color: #f1bbbb;
+    color: #ff0841;
 }

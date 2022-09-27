@@ -23,7 +23,7 @@ function Filme() {
         const data = await res.json();
 
         setFilme(data);
-        
+        console.log(data)
     }
 
     useEffect(() => {

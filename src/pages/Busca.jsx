@@ -33,7 +33,7 @@ function Busca() {
     return(
         
             <div className='container'>
-            <h1 className='titulo'>Resultados para: <label className='query-text'>{query}</label> </h1>
+            <h3 className='titulo'>Resultados para: <label className='query-text'>{query}</label> </h3>
             <div className='filmes-container'>
                 {filmes.length === 0 && <p>Carregando...</p>}
                 {filmes.length > 0 && 

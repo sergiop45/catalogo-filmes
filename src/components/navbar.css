@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #9a5071;
+    background-color: #b10c43;
     align-items: center;
     padding: 2vh;
 }
@@ -23,8 +23,8 @@
 }
 
 .navbar form button {
-    background-color: #e6d8cb;
-    border: 2px solid #e6d8cb;
+    background-color: #ebdfcc;
+    border: 2px solid #ebdfcc;
     border-radius: 20px;
     color: #000;
     padding: .3rem;
